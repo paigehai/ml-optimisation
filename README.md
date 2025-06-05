@@ -50,10 +50,9 @@ The dataset (`creditcard.csv`) is heavily imbalanced, with fraudulent transactio
 
 ## 📁 Repository Contents
 
-- `mloptimisation.ipynb`CreditCard_Fraud_Detection.ipynb`: Main notebook containing all experiments and analysis.
-- `creditcard.csv`: Input dataset (if provided).
+- `mloptimisation.ipynb`: Main notebook containing all experiments and analysis.
+- `creditcard.csv`: Input dataset.
 - `README.md`: Project overview and methodology.
-- `plots/`: Visualisations generated during model evaluation.
 
 ---
 
@@ -65,7 +64,7 @@ The dataset (`creditcard.csv`) is heavily imbalanced, with fraudulent transactio
 - XGBoost
 - LightGBM
 - CatBoost
-- Matplotlib / Seaborn / Plotly (for visualisation)
+- Matplotlib (for visualisation)
 
 ---
 
