@@ -50,7 +50,7 @@ The dataset (`creditcard.csv`) is heavily imbalanced, with fraudulent transactio
 
 ## 📁 Repository Contents
 
-- `CreditCard_Fraud_Detection.ipynb`: Main notebook containing all experiments and analysis.
+- `mloptimisation.ipynb`CreditCard_Fraud_Detection.ipynb`: Main notebook containing all experiments and analysis.
 - `creditcard.csv`: Input dataset (if provided).
 - `README.md`: Project overview and methodology.
 - `plots/`: Visualisations generated during model evaluation.
