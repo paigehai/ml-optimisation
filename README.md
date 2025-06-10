@@ -1,6 +1,6 @@
-# 🕵️ Credit Card Fraud Detection Using Machine Learning
+# Credit Card Fraud Detection Using Machine Learning
 
-## 📌 Objective
+## Objective
 
 This project explores the detection of fraudulent credit card transactions using five machine learning algorithms:
 
@@ -20,7 +20,7 @@ The ultimate goal is to identify the most effective model for detecting rare fra
 
 ---
 
-## 📊 Abstract
+## Abstract
 
 The dataset (`creditcard.csv`) is heavily imbalanced, with fraudulent transactions representing only **0.17%** of the total. This imbalance biases models toward the majority (non-fraud) class, reducing effectiveness in real-world detection tasks.
 
@@ -34,7 +34,7 @@ The dataset (`creditcard.csv`) is heavily imbalanced, with fraudulent transactio
 
 ---
 
-## 🏁 Results
+## Results
 
 | Algorithm       | Best AUC Score | Best Configuration                         |
 |----------------|----------------|---------------------------------------------|
@@ -48,7 +48,7 @@ The dataset (`creditcard.csv`) is heavily imbalanced, with fraudulent transactio
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 - `mloptimisation.ipynb`: Main notebook containing all experiments and analysis.
 - `creditcard.csv`: Input dataset.
@@ -56,9 +56,9 @@ The dataset (`creditcard.csv`) is heavily imbalanced, with fraudulent transactio
 
 ---
 
-## ⚙️ Tools & Libraries
+## ⚙Tools & Libraries
 
-- Python 3.x
+- Python 3.9+
 - Scikit-learn
 - Imbalanced-learn (for SMOTE)
 - XGBoost
@@ -68,7 +68,7 @@ The dataset (`creditcard.csv`) is heavily imbalanced, with fraudulent transactio
 
 ---
 
-## 📌 Key Takeaways
+## Key Takeaways
 
 - **Class imbalance** severely hinders performance; SMOTE and feature engineering can drastically improve results.
 - **Feature enlargement** is highly effective for tree-based models.
